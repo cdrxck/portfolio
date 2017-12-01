@@ -1,0 +1,171 @@
+html
+{
+      width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+
+}
+
+body 
+  {
+    background-image: url('media/1.jpg');
+    background-attachment: fixed;
+    overflow-x: hidden;
+    background-position: center;
+    background-size: auto;
+	}
+
+b
+  {
+    font-family: Century Gothic;
+    font-size: 6vw;
+    color: white;
+    padding-left: 20px;
+
+  } 
+ul li
+  {
+    font-family: Century Gothic;
+  }
+#NavMain ul li a:hover
+{
+  color: #03C9A9;
+      transition: 0.3s;
+}
+.headname
+{
+  background-color: rgba(0,0,0,0.8); text-align: center;
+  font-size: 5vw; color: white; font-family: century Gothic;
+  margin-bottom: 30px;
+  margin-top: 35px;
+}
+.imghead
+{
+  background-image: url('media/original.gif');
+    padding-bottom: 221px; background-repeat: no-repeat;
+    padding-top: 210px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.headername
+{
+  background-color: rgba(0,0,0,0.8);
+  font-size: 5vw; color: white; font-family: century Gothic;
+  margin-bottom: 30px;
+  margin-top: 35px;
+}
+a.linkHeader
+{
+	text-decoration: none;
+	color: white;
+}
+a.linkHeader:hover
+{
+  text-decoration: none;
+  color: white;
+}
+div img.imginhdr
+{
+    width: 75vw;
+}
+.quote
+{
+  background-image: url('media/qtbg.jpg'); 
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+      background-position: center;
+    background-size: cover;
+}
+hr
+{
+  background-color: gray;
+  width: 15%; min-height: 1px;
+}
+#chck
+{
+  font-family: century gothic; color: white;
+  font-size: 15px; font-weight: bold;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 1);
+
+}
+.aboutme
+{
+  background-color: #131313;
+  background-attachment: fixed;background-position: center;background-size: auto;
+  font-family: century gothic;
+      margin-top: 60px;
+      padding-top: 2.5%;
+
+}
+#dp
+{
+  max-width: 100%;
+  margin-top: 3%;
+  margin-left: 120px;
+}
+.text-deets
+{
+  margin-top: 3%;
+}
+
+.col-md-6
+{
+   color: white;
+}
+
+.col-md-4
+{
+    margin-left: 180px;
+}
+.progBar
+{
+  margin-top: 30px;
+}
+
+img {
+    cursor: pointer;
+}
+footer
+{
+  background-color: #131313;
+}
+.fa
+{
+ color: white;
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait) 
+{
+  .imghead
+    {
+        padding-bottom: 350px;
+        padding-top: 290px;
+    }
+  .col-md-4
+    {
+        margin-left: 1px;
+    }
+  #dp
+    {
+      max-width: 50%;
+    }
+}
+
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+h1 { 
+  font: bold 300% Consolas, Monaco, monospace;
+  border-right: .1em solid black;
+  width: 10em; 
+  width: 11ch;
+  margin: 2em 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typing 2s steps(11, end),
+             blink-caret .5s  infinite;
+}
